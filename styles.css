@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    border: 6px solid black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #333;
+    color: #dcdee1;
+}
+
+@media (max-width: 700px) {
+    .info-text {
+        max-width: 700px;
+        padding: 20px;
+    }
+
+    .card-links {
+        max-width: 700px;
+        padding: 20px;
+    }
+}
+a {
+    color: red;
+}
+
+a:visited {
+    color: orchid;
+}
+
+a:hover {
+    color: darkorange;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.photo-me {
+    box-shadow: 4px 4px 14px rgba(255, 39, 39, 0.95);
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 330px;
+    height: 240px;
+}
+
+.info-text {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.card-hobby {
+    background-color: #666;
+    border-radius: 12px;
+    border: 4px solid goldenrod;
+    box-shadow: 4px 4px 14px rgba(218, 165, 32, 0.95);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card-hobby h2 {
+    text-align: center;
+}
+
+.card-hobby ol {
+    display: flex;
+    justify-content: center;
+}
+
+.card-xp th, table {
+    border: 2px solid #111;
+    border-radius: 12px;
+}
+
+.card-xp h2 {
+    display: block;
+    text-align: center;
+}
+
+.card-xp {
+    background-color: #333;
+    border-radius: 12px;
+    border: 4px solid gold;
+    box-shadow: 4px 4px 14px rgba(255, 215, 0, 0.95);
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+.line {
+    margin: 20px;
+    display: inline;
+}
+
+.card-links textarea, input {
+    
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-color: black;
+    border-width: 3px;
+    background-color: darkred;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.card-links {
+    background-color: #111;
+    border-radius: 12px;
+    border: 4px solid yellow;
+    box-shadow: 4px 4px 14px rgba(255, 255, 0, 0.95);
+    padding: 10px;
+    text-align: center;
+}
+
+.card-links textarea {
+    margin-left: 20px;
+    height: 60px;
+    width: 263px;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    border: 3px solid #fff;
+    padding: 5px 7px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 22px;
+    border-radius: 0px;
+    font-family: inherit;
+    font-style: normal;
+}
+
+.btn:hover {
+    background: darkred;
+}
+
+.card-hobby ol{
+    list-style: upper-roman;
+    margin-top: -10px;
+}
+
+.card-hobby ol li{
+    margin-bottom: 5px;
+    width: 120px;
+}
+
+.card-hobby ol li:hover{
+    background: #113333;
+}
+
+.card-xp table tr td:nth-child(even) {
+    background: darkred;
+    border: 2px solid black;
+    border-radius: 10%;
+}
